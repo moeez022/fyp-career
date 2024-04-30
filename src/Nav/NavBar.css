@@ -1,0 +1,49 @@
+.navbar {
+  background: linear-gradient(135deg, #5fed8c, #5fed8c);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 8px 15px;
+}
+
+.nav-link:hover {
+  color: #ffeb3b;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding: 8px;
+    font-size: 16px;
+  }
+}
