@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 320px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333; /* Dark gray text color */
+  margin-bottom: 20px;
+  font-weight: 700; /* Bold font weight */
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border color on focus */
+}
+
+.form-container button {
+  background: linear-gradient(135deg, #667eea, #764ba2); /* Gradient button background */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-container button:hover {
+  filter: brightness(1.1); /* Brighten button on hover */
+}
+
+.toggle-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #666; /* Gray text color */
+}
+
+.toggle-btn {
+  background-color: transparent;
+  color: #007bff; /* Blue text color */
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
